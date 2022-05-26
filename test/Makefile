@@ -1,5 +1,5 @@
 CC:=g++
-CPPFLAGS:=-std=c++17
+CPPFLAGS:=-std=c++17 -Wall -Wextra
 EXE:=
 
 FILES:=main.cc

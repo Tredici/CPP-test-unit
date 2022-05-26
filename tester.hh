@@ -27,6 +27,8 @@ std::vector<tester::testable> tester::tests;
 
 int main(int argc, char const *argv[])
 {
+    (void)argc;
+    (void)argv;
     constexpr auto separator = "****************************************************************";
     auto& out = std::cout;
     auto i{0LL}; auto success{0LL}; auto fails{0LL};
